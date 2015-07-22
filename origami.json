@@ -1,0 +1,8 @@
+{
+	"description": "Comment bucketing, responsible to tag comments with bucket numbers in order to split them in groups for moderators.",
+	"origamiType": "service",
+	"origamiVersion": 1,
+	"support": "https://jira.ft.com/secure/RapidBoard.jspa?rapidView=57&projectKey=CAE&view=detail",
+	"supportStatus": "active",
+	"serviceUrl": "comment-bucketing.herokuapp.com"
+}

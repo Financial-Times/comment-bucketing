@@ -1,0 +1,6 @@
+{
+	"schemaVersion": 1,
+	"name": "comment-bucketing",
+	"description": "Tags comments made through Livefyre with categories. Therefore it is easier for the moderators to split their work.",
+	"checks": []
+}

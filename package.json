@@ -1,0 +1,13 @@
+{
+  "name": "activity-stream",
+  "private": true,
+  "dependencies": {
+    "express": "^4.12.3",
+    "jackrabbit": "^3.0.8",
+    "jwt-simple": "^0.2.0",
+    "livefyre": "^2.0.1",
+    "pg": "^4.3.0",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {}
+}
