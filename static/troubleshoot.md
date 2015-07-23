@@ -1,7 +1,7 @@
 # Troubleshooting
 
 ## Health
-The health page will tell you if any of it’s dependencies are stopping it functioning correctly: http://comment-bucketing-prod.herokuapp.com/__health .
+The health page will tell you if any of it’s dependencies are stopping it functioning correctly: http://comment-bucketing.herokuapp.com/__health .
 If you cannot connect to this URL at all the problem is probably a networking/CDN/DNS one although it is possible that all services have died.
 
 ### No connection to the health page
@@ -17,7 +17,7 @@ Try to connect to the database using the following command
 psql {url}
 ```
 
-Where {url} is the URL field from here: https://postgres.heroku.com/databases/comment-bucketing-prod-database .
+Where {url} is the URL field from here: https://postgres.heroku.com/databases/comment-bucketing-database .
 
 If you cannot connect to it, try to restart the service from the heroku dashboard.
 

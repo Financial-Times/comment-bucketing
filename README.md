@@ -29,4 +29,4 @@ PostgreSQL is used to persist the bucket state and the last event id and last co
 
 ### Deployment
 
-**Don't commit directly to the 'master' branch, as this is deployed automatically to the production! Create feature branches and create pull requests.**
+**Don't commit directly to the 'master' branch, create feature branches and pull requests.**
