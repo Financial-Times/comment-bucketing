@@ -182,6 +182,7 @@ function Stream (config) {
 
 				try {
 					if (body) {
+						body = body.replace(/\\U/gi, '\\u');
 						var bodyJson = JSON.parse(body);
 
 						if (bodyJson && bodyJson.data) {
