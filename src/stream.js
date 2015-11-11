@@ -133,7 +133,7 @@ function Stream (config) {
 							technicalSummary: options.reason,
 							severity: 3,
 							businessImpact: "Streaming of comments is down, so they cannot be tagged with bucket numbers. Impact only on moderators. No impact on end users.",
-							checkOutput: options.error,
+							checkOutput: options.error + options.details,
 							panicGuide: "http://comment-bucketing.herokuapp.com/troubleshoot",
 							lastUpdated: new Date().toISOString()
 						}
@@ -197,7 +197,8 @@ function Stream (config) {
 				} catch (e) {
 					restartConnection({
 						error: e,
-						reason: 'Exception: Response parse error'
+						reason: 'Exception: Response parse error',
+						details: 'Status code: ' + response.statusCode + ', body: ' + body
 					});
 				}
 			});
